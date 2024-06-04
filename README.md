@@ -12,7 +12,7 @@ Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs 
 "ChatGPT" foi utilizado para desenvolver o roteiro e gerar o conteúdo do podcast. "ElevenLabs" ajudou a criar uma voz sintética envolvente para a narração , enquanto o "Descript" foi essencial para a edição final, garantindo um fluxo suave e profissional.
 
 ## 🚀 Resultados
-O episódio é uma introdução acessível e estimulante ao campo das IAs Generativas, ideal para quem busca uma compreensão rápida do assunto.
+O episódio é um tutorial para criação de APIs utilizando a linguagem C#, ideal para quem quem possui conhecimentos básicos em programação utilizando a linguagem C# e busca uma compreensão rápida do assunto.
 
 **[LINK PARA A PARTE 1 DO PODCAST AQUI](https://share.descript.com/view/pax5QjAG3x8)**
 
@@ -76,5 +76,5 @@ public class ProductsController : ControllerBase
 
 *Dica: Clique com o botão direito no link e selecione "Abrir link em uma nova aba" ou use Ctrl + clique (Cmd + clique no macOS) para abrir em uma nova aba.*
 
-## 💭 Reflexão
-O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
+## 💭 Reflexão 
+No episódio de hoje do "Descomplicando APIs", você aprenderá a criar suas próprias APIs utilizando C# com o framework ASP.NET Core. Exploramos desde a configuração do ambiente de desenvolvimento até a criação e teste de endpoints básicos, além de compartilhar dicas essenciais e melhores práticas para garantir a qualidade e segurança de suas APIs.
