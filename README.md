@@ -9,13 +9,12 @@ Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs 
 - Software **[Descript](https://www.descript.com)** para edição e montagem do podcast.
 
 ## 🧐 Processo de Criação
-"ChatGPT" foi utilizado para desenvolver o roteiro e gerar o conteúdo do podcast. "ElevenLabs" ajudou a criar uma voz sintética envolvente para a narração, enquanto o "Descript" foi essencial para a edição final, garantindo um fluxo suave e profissional.
+"ChatGPT" foi utilizado para desenvolver o roteiro e gerar o conteúdo do podcast. "ElevenLabs" ajudou a criar uma voz sintética envolvente para a narração , enquanto o "Descript" foi essencial para a edição final, garantindo um fluxo suave e profissional.
 
 ## 🚀 Resultados
 O episódio é uma introdução acessível e estimulante ao campo das IAs Generativas, ideal para quem busca uma compreensão rápida do assunto.
 
 [LINK PARA A PARTE 1 DO PODCAST AQUI]()
-[LINK PARA A PARTE 2 DO PODCAST AQUI]()
 
 ~~~c# using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -69,6 +68,8 @@ public class ProductsController : ControllerBase
     }
 }
 ~~~
+
+[LINK PARA A PARTE 2 DO PODCAST AQUI]()
 
 ## 💭 Reflexão
 O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
