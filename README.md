@@ -1,4 +1,4 @@
-# Podcast: Podcast - Descomplicando APIs em C# em 10 Minutos 🎙️
+# Podcast: Descomplicando APIs em C# em 10 Minutos 🎙️
 
 ## 📒 Descrição
 Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs utilizando a linguagem C#.
