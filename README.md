@@ -14,7 +14,7 @@ Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs 
 ## 🚀 Resultados
 O episódio é uma introdução acessível e estimulante ao campo das IAs Generativas, ideal para quem busca uma compreensão rápida do assunto.
 
-[LINK PARA A PARTE 1 DO PODCAST AQUI](https://share.descript.com/view/pax5QjAG3x8){target="_blank"}
+[LINK PARA A PARTE 1 DO PODCAST AQUI]{target="_blank"}(https://share.descript.com/view/pax5QjAG3x8)
 
 ~~~c#
 using Microsoft.AspNetCore.Mvc;
@@ -70,7 +70,7 @@ public class ProductsController : ControllerBase
 }
 ~~~
 
-[LINK PARA A PARTE 2 DO PODCAST AQUI](https://share.descript.com/view/26LXvaUaXvH){target="_blank"}
+[LINK PARA A PARTE 2 DO PODCAST AQUI]{target="_blank"}(https://share.descript.com/view/26LXvaUaXvH){target="_blank"}
 
 ## 💭 Reflexão
 O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
