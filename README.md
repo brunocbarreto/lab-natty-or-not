@@ -17,7 +17,7 @@ O episódio é uma introdução acessível e estimulante ao campo das IAs Genera
 [LINK PARA A PARTE 1 DO PODCAST AQUI]()
 [LINK PARA A PARTE 2 DO PODCAST AQUI]()
 
-using Microsoft.AspNetCore.Mvc;
+~~~c# using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 [Route("api/[controller]")]
@@ -68,7 +68,7 @@ public class ProductsController : ControllerBase
         return Ok();
     }
 }
-
+~~~
 
 ## 💭 Reflexão
 O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
