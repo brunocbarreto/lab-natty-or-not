@@ -1,51 +1,74 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
-
-## 🚀 Introdução
-
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
-
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Podcast: Podcast - Descomplicando APIs em C# em 10 Minutos 🎙️
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs utilizando a linguagem C#.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+- IA Generativa **[ChatGPT](https://chat.openai.com)** para roteirização e geração do conteúdo;
+- IA Generativa **[ElevenLabs](https://www.elevenlabs.io)** para a sintetização de voz;
+- Software **[Descript](https://www.descript.com)** para edição e montagem do podcast.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+"ChatGPT" foi utilizado para desenvolver o roteiro e gerar o conteúdo do podcast. "ElevenLabs" ajudou a criar uma voz sintética envolvente para a narração, enquanto o "Descript" foi essencial para a edição final, garantindo um fluxo suave e profissional.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+O episódio é uma introdução acessível e estimulante ao campo das IAs Generativas, ideal para quem busca uma compreensão rápida do assunto.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+[LINK PARA A PARTE 1 DO PODCAST AQUI]()
+[LINK PARA A PARTE 2 DO PODCAST AQUI]()
 
-### Exemplos e Insigths
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
+[Route("api/[controller]")]
+[ApiController]
+public class ProductsController : ControllerBase
+{
+    private static readonly List<string> Products = new List<string>
+    {
+        "Product1", "Product2", "Product3"
+    };
 
-## Links Interessantes
+    // GET: api/products
+    [HttpGet]
+    public ActionResult<IEnumerable<string>> Get()
+    {
+        return Products;
+    }
 
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
+    // POST: api/products
+    [HttpPost]
+    public ActionResult AddProduct([FromBody] string product)
+    {
+        Products.Add(product);
+        return Ok();
+    }
 
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+    // PUT: api/products/1
+    [HttpPut("{id}")]
+    public ActionResult UpdateProduct(int id, [FromBody] string product)
+    {
+        if (id >= Products.Count)
+        {
+            return NotFound();
+        }
+        Products[id] = product;
+        return Ok();
+    }
+
+    // DELETE: api/products/1
+    [HttpDelete("{id}")]
+    public ActionResult DeleteProduct(int id)
+    {
+        if (id >= Products.Count)
+        {
+            return NotFound();
+        }
+        Products.RemoveAt(id);
+        return Ok();
+    }
+}
+
+
+## 💭 Reflexão
+O projeto destacou a versatilidade das IAs Generativas na criação de conteúdo auditivo, abrindo novos caminhos para a produção de mídia digital.
