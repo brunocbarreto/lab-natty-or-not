@@ -16,7 +16,8 @@ O episódio é uma introdução acessível e estimulante ao campo das IAs Genera
 
 [LINK PARA A PARTE 1 DO PODCAST AQUI]()
 
-~~~c# using Microsoft.AspNetCore.Mvc;
+~~~c#
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 [Route("api/[controller]")]
