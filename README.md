@@ -15,6 +15,7 @@ Este podcast de 10 minutos oferece um passeio rápido, mas profundo, pelas APIs 
 O episódio é uma introdução acessível e estimulante ao campo das IAs Generativas, ideal para quem busca uma compreensão rápida do assunto.
 
 **[LINK PARA A PARTE 1 DO PODCAST AQUI](https://share.descript.com/view/pax5QjAG3x8)**
+
 *Dica: Clique com o botão direito no link e selecione "Abrir link em uma nova aba" ou use Ctrl + clique (Cmd + clique no macOS) para abrir em uma nova aba.*
 
 ~~~c#
@@ -72,6 +73,7 @@ public class ProductsController : ControllerBase
 ~~~
 
 **[LINK PARA A PARTE 2 DO PODCAST AQUI](https://share.descript.com/view/26LXvaUaXvH)**
+
 *Dica: Clique com o botão direito no link e selecione "Abrir link em uma nova aba" ou use Ctrl + clique (Cmd + clique no macOS) para abrir em uma nova aba.*
 
 ## 💭 Reflexão
